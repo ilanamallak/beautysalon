@@ -320,12 +320,12 @@ nav.show div.close {
 
 #about .image::before {
   content: '';
-  height: 100%;
+  height: 90%;
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
   top: -8%;
-  left: -32%;
+  left: -16%;
   z-index: 0;
 }
 
@@ -478,13 +478,13 @@ footer .social a:hover {
   background: var(--base-color);
   box-shadow: 0px 0px 12px rgba(36, 25, 25, 0.25);
   position: fixed;
-  right: 0.75rem;
+  right: 1rem;
   bottom: 4rem;
   z-index: 100;
 
   padding: 8px;
   padding-bottom: 3px;
-  border-radius: 9999px;
+  border-radius: 50%;
 
   visibility: hidden;
   opacity: 0;
